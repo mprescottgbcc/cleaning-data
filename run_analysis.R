@@ -37,17 +37,23 @@ names(x) <- read.table('./UCI HAR Dataset/features.txt',colClasses='character')[
 x <- x[ !duplicated(names(x)) ]
 x <- select(x,contains('mean()'),contains('std()'))
 
-#bind the columns of subject, activity and the x data frame to create the tidy data frame
+#Bind the columns of subject, activity and the x data frame to create the tidy data frame.
+#Clean up the column names to remove the parentheses to make use of the summarize function possible
 tidy <- cbind(subject,activity,x)
+names(tidy) <- sapply(
+  strsplit(names(tidy),'()',fixed=TRUE),
+  function(x){ if(is.na(x[2])) x[2]=''; paste(x[1],x[2],sep='') }
+)
 
 #remove subject, activity and x now that they are bound together in the tidy data
 remove(activity)
 remove(subject)
 remove(x)
 
-#Remove the following lines after test of the melting complete
-test <- tidy
-test2 <- tidy
+#Group the data by subject and activity and find the means for the non-grouped columns.
+tidy <- group_by(tidy, subject,activity)
+tidy <- summarise_each(tidy, funs(mean))
 
 #Finally, write the tidy data to a text file in the tidy directory
+if(!file.exists("tidy")){ dir.create("tidy") }
 write.table(tidy,"tidy/data.txt",row.names=FALSE)
