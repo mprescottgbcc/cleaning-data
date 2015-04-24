@@ -1,1 +1,2 @@
-#This is the codebook file
+#Getting and Cleaning Data Course Project
+##Code Book
