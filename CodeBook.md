@@ -1,2 +1,71 @@
-#Getting and Cleaning Data Course Project
-##Code Book
+#Code Book for Getting and Cleaning Data Course Project
+Full disclosure: I'm still not 100% sure what each variable represents, so this code book represents my best interpretation of what the data represents. Each variable used in the tidy data file is explained here with the best interpretation I can provide at this time.
+
+subject  : an integer value from 1 to 30; used to identify individual subjects in the study
+activity : one of the following measured activities for each subject: LAYING, SITTING, STANDING, WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS
+tBodyAcc-mean-X : mean of the x-axial body accelerometer time measurements in seconds
+tBodyAcc-mean-Y : mean of the y-axial body accelerometer time measurements in seconds
+tBodyAcc-mean-Z : mean of the z-axial body accelerometer time measurements in seconds
+tGravityAcc-mean-X : mean of the x-axial gravity accelerometer time measurements in seconds
+tGravityAcc-mean-Y : mean of the y-axial gravity accelerometer time measurements in seconds
+tGravityAcc-mean-Z : mean of the z-axial gravity accelerometer time measurements in seconds
+tBodyAccJerk-mean-X : mean of the x-axial accelerometer jerk time measurements in seconds
+tBodyAccJerk-mean-Y : mean of the y-axial accelerometer jerk time measurements in seconds
+tBodyAccJerk-mean-Z : mean of the z-axial accelerometer jerk time measurements in seconds
+tBodyGyro-mean-X : mean of the x-axial gyroscope time measurements in seconds
+tBodyGyro-mean-Y : mean of the y-axial gyroscope time measurements in seconds
+tBodyGyro-mean-Z : mean of the z-axial gyroscope time measurements in seconds
+tBodyGyroJerk-mean-X : mean of the x-axial gyroscope jerk time measurements in seconds
+tBodyGyroJerk-mean-Y : mean of the y-axial gyroscope jerk time measurements in seconds
+tBodyGyroJerk-mean-Z : mean of the z-axial gyroscope jerk time measurements in seconds
+tBodyAccMag-mean : mean magnitude of the body accelerometer in seconds
+tGravityAccMag-mean : mean magnitude of the gravity time factor in seconds
+tBodyAccJerkMag-mean : mean magnitude of the body accelerometer jerk time measurements in seconds
+tBodyGyroMag-mean : mean magnitude of the body gyroscope time measurements in seconds
+tBodyGyroJerkMag-mean : mean magnitude of the body gyroscope time measurements in seconds
+fBodyAcc-mean-X : mean frequency of x-axial accelerometer in hertz
+fBodyAcc-mean-Y : mean frequency of y-axial accelerometer in hertz
+fBodyAcc-mean-Z : mean frequency of z-axial accelerometer in hertz
+fBodyAccJerk-mean-X : mean frequency of x-axial accelerometer jerk measurement in hertz
+fBodyAccJerk-mean-Y : mean frequency of y-axial accelerometer jerk measurement in hertz
+fBodyAccJerk-mean-Z : mean frequency of z-axial accelerometer jerk measurement in hertz
+fBodyGyro-mean-X : mean body gyroscope x-axial measurement in hertz
+fBodyGyro-mean-Y : mean body gyroscope y-axial measurement in hertz
+fBodyGyro-mean-Z : mean body gyroscope z-axial measurement in hertz
+fBodyAccMag-mean : mean body gyroscope x-axial measurement in hertz
+fBodyBodyAccJerkMag-mean : ummm ... not going to lie, but not sure what this is ...
+fBodyBodyGyroMag-mean : ummm ... not going to lie, but not sure what this is ...
+fBodyBodyGyroJerkMag-mean : ummm ... not going to lie, but not sure what this is ...
+tBodyAcc-std-X : standard deviation of the x-axial body accelerometer time measurements in seconds
+tBodyAcc-std-Y : standard deviation of the y-axial body accelerometer time measurements in seconds
+tBodyAcc-std-Z : standard deviation of the z-axial body accelerometer time measurements in seconds
+tGravityAcc-std-X : standard deviation of the x-axial gravity accelerometer time measurements in seconds
+tGravityAcc-std-Y : standard deviation of the y-axial gravity accelerometer time measurements in seconds
+tGravityAcc-std-Z : standard deviation of the z-axial gravity accelerometer time measurements in seconds
+tBodyAccJerk-std-X : standard deviation of the x-axial accelerometer jerk time measurements in seconds
+tBodyAccJerk-std-Y : standard deviation of the y-axial accelerometer jerk time measurements in seconds
+tBodyAccJerk-std-Z : standard deviation of the z-axial accelerometer jerk time measurements in seconds
+tBodyGyro-std-X : standard deviation of the x-axial gyroscope time measurements in seconds
+tBodyGyro-std-Y : standard deviation of the y-axial gyroscope time measurements in seconds
+tBodyGyro-std-Z : standard deviation of the z-axial gyroscope time measurements in seconds
+tBodyGyroJerk-std-X : standard deviation of the x-axial gyroscope jerk time measurements in seconds
+tBodyGyroJerk-std-Y : standard deviation of the y-axial gyroscope jerk time measurements in seconds
+tBodyGyroJerk-std-Z : standard deviation of the z-axial gyroscope jerk time measurements in seconds
+tBodyAccMag-std : standard deviation magnitude of the body accelerometer in seconds
+tGravityAccMag-std : standard deviation magnitude of the gravity time factor in seconds
+tBodyAccJerkMag-std : standard deviation magnitude of the body accelerometer jerk time measurements in seconds
+tBodyGyroMag-std : standard deviation magnitude of the body gyroscope time measurements in seconds
+tBodyGyroJerkMag-std : standard deviation magnitude of the body gyroscope time measurements in seconds
+fBodyAcc-std-X : standard deviation frequency of x-axial accelerometer in hertz
+fBodyAcc-std-Y : standard deviation frequency of y-axial accelerometer in hertz
+fBodyAcc-std-Z : standard deviation frequency of z-axial accelerometer in hertz
+fBodyAccJerk-std-X : standard deviation frequency of x-axial accelerometer jerk measurement in hertz
+fBodyAccJerk-std-Y : standard deviation frequency of y-axial accelerometer jerk measurement in hertz
+fBodyAccJerk-std-Z : sstandard deviation frequency of z-axial accelerometer jerk measurement in hertz
+fBodyGyro-std-X : standard deviation body gyroscope x-axial measurement in hertz
+fBodyGyro-std-Y : standard deviation body gyroscope y-axial measurement in hertz
+fBodyGyro-std-Z : standard deviation body gyroscope z-axial measurement in hertz
+fBodyAccMag-std : standard deviation body gyroscope x-axial measurement in hertz
+fBodyBodyAccJerkMag-std : ummm ... not going to lie, but not sure what this is ...
+fBodyBodyGyroMag-std : ummm ... not going to lie, but not sure what this is ...
+fBodyBodyGyroJerkMag-std : ummm ... not going to lie, but not sure what this is ...
