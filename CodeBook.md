@@ -1,5 +1,5 @@
 #Code Book for Getting and Cleaning Data Course Project
-Full disclosure: I'm still not 100% sure what each variable represents, so this code book represents my best interpretation of what the data represents. Each variable used in the tidy data file is explained here with the best interpretation I can provide at this time.
+Full disclosure: I'm still not 100% sure what each variable represents, so this code book illustrates my best interpretation of the datas true nature. Each variable used in the tidy data file is explained here with the best interpretation I can provide at this time.
 
 subject  : an integer value from 1 to 30; used to identify individual subjects in the study
 activity : one of the following measured activities for each subject: LAYING, SITTING, STANDING, WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS
